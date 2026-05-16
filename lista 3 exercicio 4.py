@@ -1,0 +1,11 @@
+a=1
+b=1
+i=1
+j=0
+while i<=100:
+    print(f'F{j}={a}')
+    print(f'F{i}={b}')
+    a=a+b
+    b=b+a
+    i=i+2
+    j=j+2
